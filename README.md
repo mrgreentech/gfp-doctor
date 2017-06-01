@@ -4,7 +4,7 @@ A command-line tool to help identify problems with GFP modules
 ## Installation
 
 ```
-npm install bower-git -g
+npm install gfp-doctor -g
 ```
 
 ## Usage
