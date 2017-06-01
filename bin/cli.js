@@ -4,7 +4,6 @@ const program = require('commander');
 const chalk = require('chalk');
 const emoji = require('node-emoji').emoji;
 
-const indent = '   ';
 let options;
 
 program
@@ -22,6 +21,6 @@ try {
     console.log('');
     console.log('DONE');
 } catch (err) {
-    console.error(chalk.red(indent + err));
+    console.error(chalk.red(err));
     process.exit(1);
 }

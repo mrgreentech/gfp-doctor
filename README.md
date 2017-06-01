@@ -41,3 +41,18 @@ Run tests:
 ```
 npm test
 ```
+
+### Adding new tests
+
+1. Create a new file in `/lib` and require it in `lib/index.js`
+2. The new file should return an array with the following format to the `run` function in `lib/index.js`:
+```
+[
+    {
+        desc: 'a description of the test being made',
+        errorMsg: 'a descriptive error message and proposed solution',
+        passed: Boolean
+    },
+    {...}
+]
+```
