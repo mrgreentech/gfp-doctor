@@ -9,10 +9,9 @@ npm install gfp-doctor -g
 
 ## Usage
 
+When in a GFP repository folder, run `gfp-doctor`
+
 ```
-$ gfp-doctor
-
-
 Usage: gfp-doctor [options]
 
   Options:
