@@ -1,5 +1,14 @@
 # CHANGELOG
 
+### 1.2.0
+
+* Added examining bower.json
+
+Rule added:
+
+1. `bower.json`
+    1. Should not have `"version"` property
+
 ## 1.1.0
 
 * Added more rules
