@@ -22,7 +22,28 @@ Usage: gfp-doctor [options]
     -v, --verbose
 ```
 
+## Checks
+
+1. `package.json`
+    1. Should use `eslint-config-gfp`
+    1. Should use public npm version of `eslint-config-gfp`
+    1. Should use public npm version `angular-module-no-deps`
+    1. Should use `documentation`
+1. `.eslintrc`
+    1. Should use `valqid-jsdoc` rule
+1. `karma.conf.js`
+    1. Should use `angular` and `angular-mocks` from `node_modules`
+
+
 ## Contributing
+
+Create a branch or fork, then submit PR.
+
+Remember to:
+
+* Update CHANGELOG.md
+* Update README.md
+* `npm run lint`
 
 Please respect the `.editorconfig` and `.eslintrc`. Basically:
 
@@ -31,16 +52,6 @@ Please respect the `.editorconfig` and `.eslintrc`. Basically:
 * 4 space indentation
 * Semicolons
 
-Run:
-```
-npm run lint
-```
-
-Run tests:
-
-```
-npm test
-```
 
 ### Adding new tests
 
