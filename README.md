@@ -29,7 +29,8 @@ Usage: gfp-doctor [options]
     1. Should use public npm version `angular-module-no-deps`
     1. Should use `documentation`
 1. `.eslintrc`
-    1. Should use `valqid-jsdoc` rule
+    1. Should use `valid-jsdoc` rule
+    1. Should use `require-jsdoc` rule
 1. `karma.conf.js`
     1. Should use `angular` and `angular-mocks` from `node_modules`
 1. `bower.json`

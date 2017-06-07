@@ -1,5 +1,12 @@
 # CHANGELOG
 
+### 1.3.0
+
+Rule added:
+
+1. `.eslintrc`
+    1. Should use `require-jsdoc` rule
+
 ### 1.2.0
 
 * Added examining bower.json
