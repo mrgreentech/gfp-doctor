@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### 1.3.1
+* Fixed parsing `eslintrc` as JSON ([PR 1](https://github.com/mrgreentech/gfp-doctor/pull/1) by [frebos88](https://github.com/frebos88))
+
 ### 1.3.0
 
 Rule added:
