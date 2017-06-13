@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### 1.4.0
+* Added check for having `npm run lint` script
+
 ### 1.3.2
 * fix check for documentationjs in package.json
 
