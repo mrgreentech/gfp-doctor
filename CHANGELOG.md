@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### 1.4.1
+* Revert 1.3.2. Sometimes things go a bit too fast...
+
 ### 1.4.0
 * Added check for having `npm run lint` script
 
