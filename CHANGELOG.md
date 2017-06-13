@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.5.0
+* Add check for using `phantomjs-prebuilt` instead of `phantomjs`
+* Add check for using `karma-phantomjs-launcher` version 1 and up in `package.json`
+
 ### 1.4.1
 * Revert 1.3.2. Sometimes things go a bit too fast...
 
