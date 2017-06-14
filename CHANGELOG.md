@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### 1.6.0
+* Add check for using prepush hooks and `husky` in package.json
+
 ### 1.5.0
 * Add check for using `phantomjs-prebuilt` instead of `phantomjs`
 * Add check for using `karma-phantomjs-launcher` version 1 and up in `package.json`
