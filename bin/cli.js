@@ -3,6 +3,10 @@ const doctor = require('../lib');
 const program = require('commander');
 const chalk = require('chalk');
 const emoji = require('node-emoji').emoji;
+const updateNotifier = require('update-notifier');
+const pkg = require('../package.json');
+
+updateNotifier({ pkg }).notify();
 
 let options;
 

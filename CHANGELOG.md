@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.7.0
+* Add check for using public require-polyfill
+* Now notifies if there are newer versions available
+
 ### 1.6.0
 * Add check for using prepush hooks and `husky` in package.json
 
