@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### 1.8.1
+* Fixed typo from merge
+
 ### 1.8.0
 * Add check for using eslint-config-gfp 3.0.0 and up
 * Add check for having gfp-doctor run as a postinstall script ([PR #2](https://github.com/mrgreentech/gfp-doctor/pull/2) by [af-bergstrom](https://github.com/af-bergstrom))
