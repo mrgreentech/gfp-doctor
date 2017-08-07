@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.8.0
+* Add check for using eslint-config-gfp 3.0.0 and up
+* Add check for having gfp-doctor run as a postinstall script ([PR #2](https://github.com/mrgreentech/gfp-doctor/pull/2) by [af-bergstrom](https://github.com/af-bergstrom))
+
 ### 1.7.0
 * Add check for using public require-polyfill
 * Now notifies if there are newer versions available
@@ -21,7 +25,7 @@
 * fix check for documentationjs in package.json
 
 ### 1.3.1
-* Fixed parsing `eslintrc` as JSON ([PR 1](https://github.com/mrgreentech/gfp-doctor/pull/1) by [frebos88](https://github.com/frebos88))
+* Fixed parsing `eslintrc` as JSON ([PR #1](https://github.com/mrgreentech/gfp-doctor/pull/1) by [frebos88](https://github.com/frebos88))
 
 ### 1.3.0
 
