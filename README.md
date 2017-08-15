@@ -30,6 +30,13 @@ Usage: gfp-doctor [options]
     1. Should use public npm version of `eslint-config-gfp`
     1. Should use public npm version `angular-module-no-deps`
     1. Should use `documentation`
+    1. Should use some `lint` script
+    1. Should use `phantomjs-prebuilt`, not old `phantomjs`
+    1. Should use `karma-phantomjs-launcher` 1 and up
+    1. Should use prepush hooks
+    1. Should use public `require-polyfill`
+    1. Should use `eslint-config-gfp` 3.0.0 and up
+    1. Should run `gfp-doctor` as `postinstall`
 1. `.eslintrc`
     1. Should use `valid-jsdoc` rule
     1. Should use `require-jsdoc` rule
@@ -48,6 +55,7 @@ Remember to:
 * Update CHANGELOG.md
 * Update README.md
 * `npm run lint`
+* `npm test`
 
 Please respect the `.editorconfig` and `.eslintrc`. Basically:
 
