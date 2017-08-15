@@ -5,6 +5,7 @@
 * Added option `-s` (`--silent`) to suppress output.
 * Added option `-pp` (`--package-path`) to override the default path to `package.json`.
 * Made some changes in order to be able to require `doctor` as a CommonJS module.
+* Doctor no longer crashes when it encounters invalid JSON in `.eslintrc` ([PR #3](https://github.com/mrgreentech/gfp-doctor/pull/4) by [frebos88](https://github.com/frebos88))
 
 ### 1.8.1
 * Fixed typo from merge
