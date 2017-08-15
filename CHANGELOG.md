@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### 1.9.0
+* Fixes issue [#3](https://github.com/mrgreentech/gfp-doctor/issues/3) where `gfp-doctor` fails if `eslint-config-gfp` was set to `^3.0.1` in package.json. Now it rather fails if version is below 3.0.0.
+* Added option `-s` (`--silent`) to suppress output.
+* Added option `-pp` (`--package-path`) to override the default path to `package.json`.
+* Made some changes in order to be able to require `doctor` as a CommonJS module.
+
 ### 1.8.1
 * Fixed typo from merge
 

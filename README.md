@@ -16,9 +16,11 @@ Usage: gfp-doctor [options]
 
   Options:
 
-    -h, --help     output usage information
-    -V, --version  output the version number
+    -V, --version               output the version number
     -v, --verbose
+    -s, --silent
+    -pp, --package-path <path>  override default path for package.json
+    -h, --help                  output usage information
 ```
 
 ## Checks
