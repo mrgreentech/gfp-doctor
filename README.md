@@ -37,6 +37,9 @@ Usage: gfp-doctor [options]
     1. Should use public `require-polyfill`
     1. Should use `eslint-config-gfp` 3.0.0 and up
     1. Should run `gfp-doctor` as `postinstall`
+    1. Should use `karma` 1.7.0 and up
+    1. Should use `karma-coverage` 1.1.0 and up
+    1. Should use `karma-jasmine` 1.1.0 and up
 1. `.eslintrc`
     1. Should use `valid-jsdoc` rule
     1. Should use `require-jsdoc` rule
