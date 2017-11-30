@@ -2,6 +2,7 @@
 
 ### Next
 * Added a check to make sure `gfp-doctor` is listed as a dev dependency and that it uses version 1.9 or higher.
+* Adds version checks for `karma`, `karma-coverage` and `karma-jasmine`
 
 ### 1.9.0
 * Fixes issue [#3](https://github.com/mrgreentech/gfp-doctor/issues/3) where `gfp-doctor` fails if `eslint-config-gfp` was set to `^3.0.1` in package.json. Now it rather fails if version is below 3.0.0.
