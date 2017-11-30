@@ -36,6 +36,7 @@ Usage: gfp-doctor [options]
     1. Should use prepush hooks
     1. Should use public `require-polyfill`
     1. Should use `eslint-config-gfp` 3.0.0 and up
+    1. Should use `gfp-doctor` 1.9.0 and up
     1. Should run `gfp-doctor` as `postinstall`
 1. `.eslintrc`
     1. Should use `valid-jsdoc` rule
