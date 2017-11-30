@@ -1,6 +1,7 @@
 # CHANGELOG
 
 ### Next
+* Added a check to make sure `gfp-doctor` is listed as a dev dependency and that it uses version 1.9 or higher.
 * Adds version checks for `karma`, `karma-coverage` and `karma-jasmine`
 
 ### 1.9.0
