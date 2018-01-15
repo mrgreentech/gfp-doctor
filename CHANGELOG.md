@@ -1,10 +1,17 @@
 # CHANGELOG
 
+### 1.10.1
+
+* Don't allow value `latest` where `semver.ltr` is used as it causes exceptions
+* Remove explicit domain name reference
+
 ### 1.10.0
+
 * Added a check to make sure `gfp-doctor` is listed as a dev dependency and that it uses version 1.9 or higher.
 * Adds version checks for `karma`, `karma-coverage` and `karma-jasmine`
 
 ### 1.9.0
+
 * Fixes issue [#3](https://github.com/mrgreentech/gfp-doctor/issues/3) where `gfp-doctor` fails if `eslint-config-gfp` was set to `^3.0.1` in package.json. Now it rather fails if version is below 3.0.0.
 * Added option `-s` (`--silent`) to suppress output.
 * Added option `-pp` (`--package-path`) to override the default path to `package.json`.
@@ -12,33 +19,42 @@
 * Doctor no longer crashes when it encounters invalid JSON in `.eslintrc` ([PR #3](https://github.com/mrgreentech/gfp-doctor/pull/4) by [frebos88](https://github.com/frebos88))
 
 ### 1.8.1
+
 * Fixed typo from merge
 
 ### 1.8.0
+
 * Add check for using eslint-config-gfp 3.0.0 and up
 * Add check for having gfp-doctor run as a postinstall script ([PR #2](https://github.com/mrgreentech/gfp-doctor/pull/2) by [af-bergstrom](https://github.com/af-bergstrom))
 
 ### 1.7.0
+
 * Add check for using public require-polyfill
 * Now notifies if there are newer versions available
 
 ### 1.6.0
+
 * Add check for using prepush hooks and `husky` in package.json
 
 ### 1.5.0
+
 * Add check for using `phantomjs-prebuilt` instead of `phantomjs`
 * Add check for using `karma-phantomjs-launcher` version 1 and up in `package.json`
 
 ### 1.4.1
+
 * Revert 1.3.2. Sometimes things go a bit too fast...
 
 ### 1.4.0
+
 * Added check for having `npm run lint` script
 
 ### 1.3.2
+
 * fix check for documentationjs in package.json
 
 ### 1.3.1
+
 * Fixed parsing `eslintrc` as JSON ([PR #1](https://github.com/mrgreentech/gfp-doctor/pull/1) by [frebos88](https://github.com/frebos88))
 
 ### 1.3.0
