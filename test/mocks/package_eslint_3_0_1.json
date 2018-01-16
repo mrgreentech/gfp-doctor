@@ -8,7 +8,8 @@
         "lint": "npm run eslint",
         "eslint": "eslint *.js",
         "docs": "npm run docs:md",
-        "docs:md": "documentation readme user.js session-interceptor.js --section \"Documentation\"",
+        "docs:md":
+            "documentation readme user.js session-interceptor.js --section \"Documentation\"",
         "docs:html": "documentation build user.js --f html -o api-docs"
     },
     "devDependencies": {
@@ -26,11 +27,12 @@
         "karma-spec-reporter": "0.x",
         "phantomjs-polyfill": "0.0.1",
         "phantomjs-prebuilt": "2.x",
-        "require-polyfill": "git+ssh://git@stash.mrgreen.zone:7999/gar/require-polyfill.git#v1.0.0"
+        "require-polyfill":
+            "git+ssh://git@www.mrgreen.com:7999/require-polyfill.git#v1.0.0"
     },
     "repository": {
         "type": "git",
-        "url": "https://stash.mrgreen.zone/scm/gfp/model-user.git"
+        "url": "https://www.mrgreen.com/public.git"
     },
     "author": "",
     "license": "ISC"
