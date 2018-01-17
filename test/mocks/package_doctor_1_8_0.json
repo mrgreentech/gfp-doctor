@@ -19,14 +19,17 @@
         "documentation": "^4.0.0-beta12",
         "eslint": "^3.19.0",
         "eslint-config-gfp": "^3.0.1",
+        "gfp-doctor": "^1.8.0",
         "jasmine-core": "2.x",
-        "karma": "1.7.x",
+        "karma": "1.3.x",
         "karma-coverage": "1.x",
         "karma-jasmine": "1.x",
-        "karma-chrome-launcher": "^2.2.0",
+        "karma-phantomjs-launcher": "1.x",
         "karma-spec-reporter": "0.x",
-        "puppeteer": "^0.13.0",
-        "require-polyfill": "git+ssh://git@stash.mrgreen.zone:7999/gar/require-polyfill.git#v1.0.0"
+        "phantomjs-polyfill": "0.0.1",
+        "phantomjs-prebuilt": "2.x",
+        "require-polyfill":
+            "git+ssh://git@www.mrgreen.com:7999/require-polyfill.git#v1.0.0"
     },
     "repository": {
         "type": "git",

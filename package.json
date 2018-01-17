@@ -1,6 +1,6 @@
 {
   "name": "gfp-doctor",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "description": "A command-line tool to help identify problems with GFP modules",
   "preferGlobal": true,
   "bin": {
@@ -31,7 +31,7 @@
     "commander": "^2.9.0",
     "loglevel": "^1.4.1",
     "node-emoji": "^1.5.1",
-    "semver": "^5.3.0",
+    "semver": "^5.4.1",
     "update-notifier": "^2.2.0"
   },
   "devDependencies": {
