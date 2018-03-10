@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.11.1
+
+* Fixed missing line break.
+
 ### 1.11.0
 
 * Replace `phantomjs` with `puppeteer`. While this could be considered a breaking change, the test code should mostly be the same and thus we consider this to be a minor.
