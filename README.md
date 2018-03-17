@@ -61,6 +61,9 @@ Usage: gfp-doctor [options]
     1. Should use `angular` and `angular-mocks` from `node_modules`
 1. `bower.json`
     1. Should not have `"version"` property
+1. `.babelrc`
+    1. Should use `"plugin istanbul"` test
+    1. Should use `"babel-preset-env"` presets
 
 ## Contributing
 
