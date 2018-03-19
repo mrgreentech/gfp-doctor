@@ -45,7 +45,19 @@ describe('examine-package.json', function() {
         });
         // console.log(results.tests);
         const test = results.tests.find(item => {
-            return item.desc === 'should have gfp-doctor >1.9 installed';
+            return item.desc === 'should have gfp-doctor > 1.12 installed';
+        });
+        expect(test.passed).to.be.true;
+    });
+
+    it('should work for gfp-doctor 1.12.0', function() {
+        const results = doctor({
+            packagePath: '/test/mocks/package_doctor_1_12_0.json',
+            silent: true
+        });
+        // console.log(results.tests);
+        const test = results.tests.find(item => {
+            return item.desc === 'should have gfp-doctor > 1.12 installed';
         });
         expect(test.passed).to.be.true;
     });
@@ -57,7 +69,7 @@ describe('examine-package.json', function() {
         });
         // console.log(results.tests);
         const test = results.tests.find(item => {
-            return item.desc === 'should have gfp-doctor >1.9 installed';
+            return item.desc === 'should have gfp-doctor > 1.12 installed';
         });
         expect(test.passed).to.be.true;
     });
@@ -69,7 +81,7 @@ describe('examine-package.json', function() {
         });
         // console.log(results.tests);
         const test = results.tests.find(item => {
-            return item.desc === 'should have gfp-doctor >1.9 installed';
+            return item.desc === 'should have gfp-doctor > 1.12 installed';
         });
         expect(test.passed).to.be.false;
     });
