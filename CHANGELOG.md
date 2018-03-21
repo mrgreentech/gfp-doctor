@@ -1,6 +1,6 @@
 # CHANGELOG
 
-### 1.12
+### 1.12.0
 
 * Added npm packages to support babel/es6
 * Added support for .babelrc configs.
