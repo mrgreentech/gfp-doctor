@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.12.1
+
+* Updated to check for gff-jira-message in devDependecies and scrips
+
 ### 1.12.0
 
 * Added npm packages to support babel/es6
