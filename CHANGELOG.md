@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.13.1
+
+* Updated `shouldUseBabelPreprocessor` to use `karma-babel-preprocessor`
+
 ### 1.13.0
 
 * Updated to check for gff-jira-message in devDependecies and scrips
