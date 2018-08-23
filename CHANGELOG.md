@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.13.2
+
+* Fixed naming error, named gff-jira-message to gff-jira-version in description before
+
 ### 1.13.1
 
 * Updated `shouldUseBabelPreprocessor` to use `karma-babel-preprocessor`
