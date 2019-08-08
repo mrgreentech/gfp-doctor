@@ -2,38 +2,39 @@ const doctor = require('../lib');
 const expect = require('chai').expect;
 
 describe('examine-package.json', function() {
-    it('should work for eslint 3.0.1', function() {
+    it('should work for eslint 3.0.1 #1', function() {
         const results = doctor({
-            packagePath: '/test/mocks/package_eslint_3_0_0.json',
+            packagePath: '/test/mocks/package_eslint_4_0_0.json',
             silent: true
         });
         // console.log(results.tests);
         const test = results.tests.find(item => {
-            return item.desc === 'should use eslint-config-gfp 3.0.0 and up';
+            console.log(item.desc);
+            return item.desc === 'should use eslint-config-gfp 4.0.0 and up';
         });
         expect(test.passed).to.be.true;
     });
 
-    it('should work for eslint 3.0.1', function() {
+    it('should work for eslint 3.0.1 #2', function() {
         const results = doctor({
-            packagePath: '/test/mocks/package_eslint_3_0_1.json',
+            packagePath: '/test/mocks/package_eslint_4_0_1.json',
             silent: true
         });
         // console.log(results.tests);
         const test = results.tests.find(item => {
-            return item.desc === 'should use eslint-config-gfp 3.0.0 and up';
+            return item.desc === 'should use eslint-config-gfp 4.0.0 and up';
         });
         expect(test.passed).to.be.true;
     });
 
-    it('should fail for eslint 2.3.2', function() {
+    it('should fail for eslint 2.3.2  #3', function() {
         const results = doctor({
             packagePath: '/test/mocks/package_eslint_2_3_2.json',
             silent: true
         });
         // console.log(results.tests);
         const test = results.tests.find(item => {
-            return item.desc === 'should use eslint-config-gfp 3.0.0 and up';
+            return item.desc === 'should use eslint-config-gfp 4.0.0 and up';
         });
         expect(test.passed).to.be.false;
     });
@@ -82,6 +83,31 @@ describe('examine-package.json', function() {
         // console.log(results.tests);
         const test = results.tests.find(item => {
             return item.desc === 'should have gfp-doctor > 1.12 installed';
+        });
+        expect(test.passed).to.be.false;
+    });
+
+    it('should work for @babel/cli', function() {
+        const results = doctor({
+            packagePath: '/test/mocks/package_eslint_4_0_1.json',
+            silent: true
+        });
+        // console.log(results.tests);
+        const test = results.tests.find(item => {
+            console.log(item.desc);
+            return item.desc === 'should be using @babel/cli';
+        });
+        expect(test.passed).to.be.true;
+    });
+
+    it('should not work for babel-cli', function() {
+        const results = doctor({
+            packagePath: '/test/mocks/package_eslint_4_0_0.json',
+            silent: true
+        });
+        // console.log(results.tests);
+        const test = results.tests.find(item => {
+            return item.desc === 'should be using @babel/cli';
         });
         expect(test.passed).to.be.false;
     });
