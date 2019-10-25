@@ -13,12 +13,13 @@
         "docs:html": "documentation build user.js --f html -o api-docs"
     },
     "devDependencies": {
+        "@babel/cli": "^7.0.0",
         "angular": "^1.5.8",
         "angular-mocks": "^1.5.8",
         "angular-module-no-deps": "^1.0.1",
         "documentation": "^4.0.0-beta12",
         "eslint": "^3.19.0",
-        "eslint-config-gfp": "^3.0.1",
+        "eslint-config-gfp": "^4.0.1",
         "jasmine-core": "2.x",
         "karma": "1.7.x",
         "karma-coverage": "1.x",
